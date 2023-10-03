@@ -1,0 +1,11 @@
+.thumb
+.align 2
+
+.include "../xse_commands.s"
+.include "../xse_defines.s"
+
+global EventScript_PweterCity_PokemonCenter_Jigglypuff
+EventScript_PweterCity_PokemonCenter_Jigglypuff:
+ msgbox gText_PweterCity_PokemonCenter_Jigglypuff MSG_FACE
+end
+
